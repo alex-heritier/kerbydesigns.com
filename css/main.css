@@ -1,4 +1,15 @@
 
+/* Utility classes */
+.quote p {
+    line-height: 1;
+}
+
+.emphasis {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Panel styling */
 .section-panel {
     margin: auto;
     border-bottom: 1px solid black;
@@ -25,38 +36,16 @@
     margin-top: -20px;
 }
 
-.feedback-panel {
-}
-
-.detailed-info-panel {
-}
-
-.buy-panel {
+.contact-panel {
     border-bottom: 0;
 }
 
-.buy-tier-list {
-    width: 60%;
-    margin: auto;
-}
-
-.buy-tier-list p {
-    text-align: right;
-}
-
-.buy-tier-list button {
-    width: 70px;
-}
-
-.buy-tier-item {
-    margin-top: 10px;
-}
-
-.quote p {
-    line-height: 1;
-}
-
-.emphasis {
+/* Buy panel package styling */
+.panel-heading {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+.panel-body {
+    font-size: 19px;
 }

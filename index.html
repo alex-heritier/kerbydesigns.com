@@ -30,15 +30,16 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">About Us</a></li>
-                    <li><a href="#">Get Started</a></li>
+                    <li class="active"><a href="#about">About Us</a></li>
+                    <li><a href="#start">Get Started</a></li>
+                    <li><a href="#contact">Get Started</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <!-- END NAVBAR -->
 
-    <div class="container">
+    <div class="container main-content">
         <!-- brief info panel - briefly describes page -->
         <div class="row">
             <div class="col-xs-12 section-panel brief-info-panel">
@@ -60,6 +61,7 @@
 
         <!-- detailed info panel - describes page -->
         <div class="row">
+            <a name="about"></a>
             <div class="col-xs-12 section-panel detailed-info-panel">
                 <h1>A Modern Website That Attracts Customers!</h1>
                     <p>
@@ -77,39 +79,51 @@
 
         <!-- buy panel - visitor can buy what the page is selling -->
         <div class="row">
+            <a name="start"></a>
             <div class="col-xs-12 section-panel buy-panel">
                 <h1>Get Started</h1>
-                <div class="buy-tier-list">
-                    <!-- lite tier -->
-                    <div class="row buy-tier-item">
-                        <div class="col-xs-6">
-                            <p>Lite</p>
-                        </div>
-                        <div class="col-xs-6">
-                            <button type="button" class="btn btn-success">&dollar;300</button>
-                        </div>
-                    </div>
+                <p>We offer three different packages to accomodate our clients.</p>
 
-                    <!-- basic tier -->
-                    <div class="row buy-tier-item">
-                        <div class="col-xs-6">
-                            <p>Basic</p>
-                        </div>
-                        <div class="col-xs-6">
-                            <button type="button" class="btn btn-success">&dollar;600</button>
-                        </div>
-                    </div>
-
-                    <!-- complete tier -->
-                    <div class="row buy-tier-item">
-                        <div class="col-xs-6">
-                            <p>Complete</p>
-                        </div>
-                        <div class="col-xs-6">
-                            <button type="button" class="btn btn-success">&dollar;1000</button>
-                        </div>
+                <!-- bottom tier -->
+                <div class="panel panel-default bottom-package">
+                    <div class="panel-heading">Lite</div>
+                    <div class="panel-body">
+                        For those who want a landing page to show off their business.
+                        Includes a clean, mobile-friendly template that can easily
+                        be modified to say what you want.
                     </div>
                 </div>
+
+                <!-- middle tier -->
+                <div class="panel panel-default middle-package">
+                    <div class="panel-heading">Basic</div>
+                    <div class="panel-body">
+                        Everything in the Lite package plus we will get your new website
+                        completely setup for you.
+                        <br>
+                        Includes a month of free technical support.
+                    </div>
+                </div>
+
+                <!-- upper tier -->
+                <div class="panel panel-default upper-package">
+                    <div class="panel-heading">Complete</div>
+                    <div class="panel-body">
+                        A fully customized website according to your personal
+                        specifications. We'll also handle all the hosting details.
+                        <br>
+                        Includes a month of free technical support.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact panel - contact us -->
+        <div class="row">
+            <a name="contact"></a>
+            <div class="col-xs-12 section-panel contact-panel">
+                <h1>Contact Us</h1>
+                <p><a href="mailto:alex.heritier@gmail.com">alex.heritier@gmail.com</a><p>
             </div>
         </div>
     </div>
